@@ -1,0 +1,501 @@
+"CustomerID","Channel","Time","Conversion"
+1," Search",1,0
+1," Social Media",2,0
+1," Direct Mail",3,0
+1," Email",4,1
+1," TV",5,0
+2," Direct Mail",1,0
+2," Email",2,0
+2," Search",3,0
+2," TV",4,0
+2," Social Media",5,1
+3," Search",1,0
+3," Social Media",2,1
+3," Email",3,0
+3," Direct Mail",4,0
+3," TV",5,0
+4," Social Media",1,0
+4," Search",2,1
+4," Email",3,0
+4," TV",4,0
+4," Direct Mail",5,0
+5," Social Media",1,0
+5," Email",2,1
+5," TV",3,0
+5," Direct Mail",4,0
+5," Search",5,0
+6," TV",1,0
+6," Email",2,1
+6," Direct Mail",3,0
+6," Social Media",4,0
+6," Search",5,0
+7," Social Media",1,0
+7," Search",2,1
+7," Direct Mail",3,0
+7," TV",4,0
+7," Email",5,0
+8," Social Media",1,0
+8," TV",2,0
+8," Direct Mail",3,1
+8," Search",4,0
+8," Email",5,0
+9," TV",1,0
+9," Email",2,0
+9," Direct Mail",3,1
+9," Search",4,0
+9," Social Media",5,0
+10," Email",1,0
+10," Search",2,0
+10," Direct Mail",3,1
+10," TV",4,0
+10," Social Media",5,0
+11," Direct Mail",1,0
+11," Email",2,0
+11," TV",3,1
+11," Search",4,0
+11," Social Media",5,0
+12," Search",1,0
+12," Social Media",2,1
+12," Email",3,0
+12," Direct Mail",4,0
+12," TV",5,0
+13," TV",1,0
+13," Direct Mail",2,0
+13," Social Media",3,0
+13," Search",4,0
+13," Email",5,1
+14," Direct Mail",1,0
+14," Search",2,0
+14," Social Media",3,0
+14," TV",4,1
+14," Email",5,0
+15," Social Media",1,0
+15," Search",2,0
+15," Email",3,0
+15," TV",4,0
+15," Direct Mail",5,1
+16," Social Media",1,0
+16," Direct Mail",2,0
+16," Search",3,0
+16," TV",4,0
+16," Email",5,1
+17," Email",1,0
+17," TV",2,1
+17," Social Media",3,0
+17," Direct Mail",4,0
+17," Search",5,0
+18," TV",1,0
+18," Social Media",2,1
+18," Search",3,0
+18," Email",4,0
+18," Direct Mail",5,0
+19," Email",1,0
+19," Search",2,0
+19," TV",3,0
+19," Direct Mail",4,1
+19," Social Media",5,0
+20," Direct Mail",1,0
+20," Social Media",2,0
+20," Search",3,0
+20," TV",4,1
+20," Email",5,0
+21," Search",1,0
+21," Email",2,0
+21," Direct Mail",3,1
+21," TV",4,0
+21," Social Media",5,0
+22," Social Media",1,0
+22," Search",2,0
+22," TV",3,0
+22," Direct Mail",4,0
+22," Email",5,1
+23," Social Media",1,0
+23," TV",2,0
+23," Direct Mail",3,1
+23," Search",4,0
+23," Email",5,0
+24," Direct Mail",1,0
+24," Social Media",2,0
+24," TV",3,1
+24," Search",4,0
+24," Email",5,0
+25," Social Media",1,1
+25," TV",2,0
+25," Search",3,0
+25," Direct Mail",4,0
+25," Email",5,0
+26," Direct Mail",1,0
+26," TV",2,0
+26," Search",3,0
+26," Email",4,1
+26," Social Media",5,0
+27," Direct Mail",1,0
+27," TV",2,0
+27," Email",3,1
+27," Social Media",4,0
+27," Search",5,0
+28," Search",1,0
+28," Email",2,1
+28," Social Media",3,0
+28," TV",4,0
+28," Direct Mail",5,0
+29," Email",1,0
+29," Direct Mail",2,1
+29," TV",3,0
+29," Social Media",4,0
+29," Search",5,0
+30," TV",1,0
+30," Direct Mail",2,1
+30," Search",3,0
+30," Social Media",4,0
+30," Email",5,0
+31," Social Media",1,0
+31," TV",2,0
+31," Search",3,1
+31," Email",4,0
+31," Direct Mail",5,0
+32," Search",1,0
+32," Email",2,1
+32," Social Media",3,0
+32," TV",4,0
+32," Direct Mail",5,0
+33," Direct Mail",1,0
+33," Search",2,0
+33," Social Media",3,0
+33," TV",4,0
+33," Email",5,1
+34," TV",1,0
+34," Direct Mail",2,0
+34," Email",3,0
+34," Search",4,1
+34," Social Media",5,0
+35," Email",1,0
+35," Search",2,1
+35," Social Media",3,0
+35," Direct Mail",4,0
+35," TV",5,0
+36," Search",1,1
+36," TV",2,0
+36," Social Media",3,0
+36," Direct Mail",4,0
+36," Email",5,0
+37," Email",1,0
+37," Social Media",2,0
+37," TV",3,1
+37," Search",4,0
+37," Direct Mail",5,0
+38," Email",1,0
+38," Search",2,0
+38," Direct Mail",3,0
+38," TV",4,0
+38," Social Media",5,1
+39," Email",1,0
+39," Search",2,0
+39," Social Media",3,0
+39," TV",4,0
+39," Direct Mail",5,1
+40," Direct Mail",1,0
+40," Email",2,1
+40," Social Media",3,0
+40," TV",4,0
+40," Search",5,0
+41," Search",1,0
+41," TV",2,0
+41," Email",3,0
+41," Social Media",4,1
+41," Direct Mail",5,0
+42," Social Media",1,1
+42," TV",2,0
+42," Direct Mail",3,0
+42," Search",4,0
+42," Email",5,0
+43," TV",1,0
+43," Social Media",2,1
+43," Search",3,0
+43," Email",4,0
+43," Direct Mail",5,0
+44," TV",1,0
+44," Social Media",2,0
+44," Search",3,0
+44," Direct Mail",4,1
+44," Email",5,0
+45," Direct Mail",1,0
+45," Social Media",2,1
+45," TV",3,0
+45," Search",4,0
+45," Email",5,0
+46," TV",1,0
+46," Direct Mail",2,0
+46," Social Media",3,0
+46," Search",4,0
+46," Email",5,1
+47," Email",1,0
+47," Search",2,0
+47," Social Media",3,0
+47," Direct Mail",4,0
+47," TV",5,1
+48," Direct Mail",1,0
+48," TV",2,0
+48," Search",3,0
+48," Email",4,1
+48," Social Media",5,0
+49," Social Media",1,0
+49," Search",2,0
+49," TV",3,0
+49," Direct Mail",4,1
+49," Email",5,0
+50," Direct Mail",1,0
+50," Social Media",2,0
+50," TV",3,0
+50," Email",4,1
+50," Search",5,0
+51," TV",1,0
+51," Email",2,1
+51," Search",3,0
+51," Direct Mail",4,0
+51," Social Media",5,0
+52," Search",1,0
+52," Social Media",2,0
+52," Email",3,0
+52," TV",4,0
+52," Direct Mail",5,1
+53," Email",1,0
+53," Social Media",2,0
+53," TV",3,1
+53," Direct Mail",4,0
+53," Search",5,0
+54," Social Media",1,0
+54," Direct Mail",2,0
+54," Email",3,0
+54," Search",4,1
+54," TV",5,0
+55," Search",1,0
+55," Email",2,0
+55," Direct Mail",3,1
+55," TV",4,0
+55," Social Media",5,0
+56," Email",1,0
+56," Search",2,1
+56," TV",3,0
+56," Social Media",4,0
+56," Direct Mail",5,0
+57," Email",1,0
+57," Search",2,0
+57," TV",3,1
+57," Social Media",4,0
+57," Direct Mail",5,0
+58," Social Media",1,1
+58," Email",2,0
+58," Search",3,0
+58," Direct Mail",4,0
+58," TV",5,0
+59," Direct Mail",1,0
+59," TV",2,1
+59," Email",3,0
+59," Search",4,0
+59," Social Media",5,0
+60," Email",1,1
+60," Search",2,0
+60," Social Media",3,0
+60," TV",4,0
+60," Direct Mail",5,0
+61," Social Media",1,1
+61," TV",2,0
+61," Direct Mail",3,0
+61," Email",4,0
+61," Search",5,0
+62," Email",1,0
+62," Direct Mail",2,1
+62," Search",3,0
+62," TV",4,0
+62," Social Media",5,0
+63," Email",1,0
+63," Direct Mail",2,0
+63," Search",3,1
+63," TV",4,0
+63," Social Media",5,0
+64," Search",1,0
+64," Email",2,0
+64," TV",3,1
+64," Social Media",4,0
+64," Direct Mail",5,0
+65," Direct Mail",1,0
+65," Search",2,0
+65," Email",3,0
+65," Social Media",4,0
+65," TV",5,1
+66," Email",1,0
+66," TV",2,0
+66," Search",3,0
+66," Social Media",4,1
+66," Direct Mail",5,0
+67," Social Media",1,0
+67," Direct Mail",2,0
+67," Search",3,0
+67," Email",4,0
+67," TV",5,1
+68," TV",1,1
+68," Email",2,0
+68," Direct Mail",3,0
+68," Social Media",4,0
+68," Search",5,0
+69," Social Media",1,0
+69," Direct Mail",2,0
+69," Email",3,0
+69," Search",4,1
+69," TV",5,0
+70," Direct Mail",1,0
+70," Search",2,0
+70," Social Media",3,1
+70," Email",4,0
+70," TV",5,0
+71," Email",1,0
+71," Search",2,0
+71," TV",3,0
+71," Social Media",4,0
+71," Direct Mail",5,1
+72," TV",1,1
+72," Social Media",2,0
+72," Email",3,0
+72," Search",4,0
+72," Direct Mail",5,0
+73," Social Media",1,0
+73," Search",2,1
+73," TV",3,0
+73," Email",4,0
+73," Direct Mail",5,0
+74," Social Media",1,0
+74," Direct Mail",2,0
+74," TV",3,1
+74," Email",4,0
+74," Search",5,0
+75," Search",1,0
+75," Email",2,0
+75," Social Media",3,0
+75," Direct Mail",4,0
+75," TV",5,1
+76," TV",1,1
+76," Search",2,0
+76," Social Media",3,0
+76," Direct Mail",4,0
+76," Email",5,0
+77," Search",1,1
+77," Direct Mail",2,0
+77," Social Media",3,0
+77," TV",4,0
+77," Email",5,0
+78," Search",1,1
+78," Social Media",2,0
+78," Email",3,0
+78," TV",4,0
+78," Direct Mail",5,0
+79," Direct Mail",1,0
+79," TV",2,0
+79," Email",3,0
+79," Search",4,1
+79," Social Media",5,0
+80," Search",1,0
+80," TV",2,1
+80," Social Media",3,0
+80," Direct Mail",4,0
+80," Email",5,0
+81," Direct Mail",1,0
+81," Email",2,0
+81," Search",3,1
+81," TV",4,0
+81," Social Media",5,0
+82," Search",1,1
+82," TV",2,0
+82," Direct Mail",3,0
+82," Social Media",4,0
+82," Email",5,0
+83," Direct Mail",1,0
+83," Email",2,1
+83," Search",3,0
+83," Social Media",4,0
+83," TV",5,0
+84," Search",1,0
+84," Social Media",2,0
+84," Email",3,0
+84," TV",4,1
+84," Direct Mail",5,0
+85," TV",1,1
+85," Social Media",2,0
+85," Search",3,0
+85," Email",4,0
+85," Direct Mail",5,0
+86," Email",1,1
+86," TV",2,0
+86," Social Media",3,0
+86," Search",4,0
+86," Direct Mail",5,0
+87," TV",1,1
+87," Email",2,0
+87," Social Media",3,0
+87," Search",4,0
+87," Direct Mail",5,0
+88," TV",1,0
+88," Direct Mail",2,1
+88," Search",3,0
+88," Social Media",4,0
+88," Email",5,0
+89," Social Media",1,0
+89," Search",2,0
+89," Email",3,0
+89," Direct Mail",4,0
+89," TV",5,1
+90," Social Media",1,1
+90," Search",2,0
+90," TV",3,0
+90," Email",4,0
+90," Direct Mail",5,0
+91," TV",1,0
+91," Social Media",2,0
+91," Email",3,0
+91," Search",4,0
+91," Direct Mail",5,1
+92," Email",1,0
+92," Social Media",2,0
+92," Search",3,1
+92," TV",4,0
+92," Direct Mail",5,0
+93," Search",1,1
+93," TV",2,0
+93," Email",3,0
+93," Direct Mail",4,0
+93," Social Media",5,0
+94," Search",1,0
+94," TV",2,0
+94," Direct Mail",3,0
+94," Social Media",4,1
+94," Email",5,0
+95," Social Media",1,1
+95," Direct Mail",2,0
+95," Search",3,0
+95," TV",4,0
+95," Email",5,0
+96," Social Media",1,0
+96," Direct Mail",2,0
+96," TV",3,0
+96," Email",4,0
+96," Search",5,1
+97," Search",1,0
+97," TV",2,1
+97," Social Media",3,0
+97," Email",4,0
+97," Direct Mail",5,0
+98," Email",1,0
+98," Search",2,0
+98," Direct Mail",3,0
+98," TV",4,1
+98," Social Media",5,0
+99," Email",1,0
+99," Search",2,1
+99," TV",3,0
+99," Social Media",4,0
+99," Direct Mail",5,0
+100," Search",1,0
+100," Social Media",2,0
+100," Email",3,0
+100," TV",4,0
+100," Direct Mail",5,1
