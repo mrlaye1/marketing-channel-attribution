@@ -78,6 +78,7 @@ Key findings:
 
 ## Project Structure
 
+```text
 marketing-channel-attribution/
 ├── README.md
 ├── data/
@@ -90,6 +91,7 @@ marketing-channel-attribution/
 │   └── attribution_comparison.png
 └── results/
     └── attribution_summary.csv
+
 
 ---
 
