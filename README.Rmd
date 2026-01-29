@@ -1,0 +1,174 @@
+---
+title: "Marketing Channel Attribution"
+author: "Abdoulaye Diop"
+date: "2023-04-20"
+output:
+  html_document:
+    toc: true
+    toc_depth: 2
+    number_sections: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = FALSE,
+  message = FALSE,
+  warning = FALSE
+)
+```
+
+# 1. Overview
+
+In multi channel marketing environments, customers typically interact with several channels before converting. Despite this, performance measurement is often based on simple attribution rules such as last touch or first touch attribution. These approaches can distort how value is assigned across channels and lead to suboptimal budget decisions.
+
+This project compares heuristic attribution methods with a probabilistic Markov chain approach to better understand the contribution of each marketing channel across the full customer journey.
+
+The analysis is designed to reflect professional marketing analytics practice and is fully reproducible.
+
+# 2. Business Problem
+
+Marketing teams must decide how to allocate budget across channels such as paid search, display, email, and social media. When attribution is overly simplistic, channels that appear late in the customer journey receive disproportionate credit, while channels that initiate or support demand are undervalued.
+
+This can lead to:
+
+- Over investment in lower funnel channels  
+- Under investment in awareness and consideration channels  
+- Misleading performance reporting  
+- Inefficient marketing budget allocation  
+
+The core challenge is accurately measuring channel contribution across the entire conversion path.
+
+# 3. Objectives
+
+The objectives of this project are to:
+
+- Quantify channel contributions using multiple attribution models  
+- Compare rule based and probabilistic attribution approaches  
+- Demonstrate how attribution methodology affects analytical conclusions  
+- Build a clean, reproducible marketing analytics workflow  
+
+# 4. Data Description
+
+The dataset represents customer level marketing journeys and includes the following variables:
+
+| Variable | Description |
+|--------|------------|
+| CustomerID | Unique identifier for each customer |
+| Channel | Marketing channel associated with the interaction |
+| VisitDate | Timestamp of the interaction |
+| Conversion | Binary indicator of conversion |
+
+Each row represents a single customer interaction. Customers may have multiple interactions across different channels before converting or dropping out.
+
+# 5. Methodology
+
+## 5.1 Data Preparation
+
+Customer journeys are reconstructed by ordering interactions chronologically for each customer. A sequential index is created to represent the order of touchpoints within each journey. This transformation is required for sequence based attribution models.
+
+Implemented in `src/data_preparation.R`.
+
+```{r data-preparation}
+source("src/data_preparation.R")
+```
+
+## 5.2 Attribution Models
+
+Two categories of attribution models are implemented.
+
+### Heuristic Attribution Models
+
+- First touch attribution  
+- Last touch attribution  
+- Linear attribution  
+
+These models are simple to interpret but rely on fixed rules that do not account for interactions between channels.
+
+### Markov Chain Attribution
+
+A first order Markov chain model is used to estimate channel contribution probabilistically. Channels are treated as states and customer journeys are modeled as transitions between states.
+
+Channel importance is measured using removal effects, which quantify the change in conversion probability when a channel is removed from the system.
+
+Implemented in `src/attribution_models.R`.
+
+```{r attribution-models}
+source("src/attribution_models.R")
+```
+
+## 5.3 Visualization
+
+Attribution results are visualized to compare heuristic and probabilistic models across channels. Visual outputs are displayed in the report and saved to the figures directory.
+
+Implemented in `src/visualization.R`.
+
+```{r visualization}
+source("src/visualization.R")
+```
+
+# 6. Results
+
+Key findings from the analysis include:
+
+- Last touch attribution systematically overweights terminal channels  
+- Upper funnel and assistive channels gain importance under Markov attribution  
+- Attribution outcomes vary substantially depending on model choice  
+
+These differences are material and directly impact marketing performance evaluation and budget decisions.
+
+# 7. Limitations
+
+This analysis has several limitations:
+
+- The results are observational rather than causal  
+- Channel spend and cost efficiency are not included  
+- Time decay effects are not modeled  
+- Channel saturation and diminishing returns are ignored  
+
+The findings should be interpreted as directional insights rather than definitive causal estimates.
+
+# 8. Project Structure
+
+The repository follows a standard, reproducible analytics layout:
+
+```
+marketing-channel-attribution/
+├── README.md
+├── marketing_channel_attribution_report.Rmd
+├── data/
+│   └── channel_raw_data.csv
+├── src/
+│   ├── data_preparation.R
+│   ├── attribution_models.R
+│   └── visualization.R
+├── figures/
+│   └── attribution_comparison.png
+└── results/
+    └── attribution_summary.csv
+```
+
+# 9. Reproducibility
+
+From the project root directory, run the scripts in the following order:
+
+```r
+source("src/data_preparation.R")
+source("src/attribution_models.R")
+source("src/visualization.R")
+```
+
+Outputs are saved automatically to the results and figures directories.
+
+# 10. Tools and Libraries
+
+- R  
+- dplyr  
+- ggplot2  
+- lubridate  
+- ChannelAttribution  
+- markovchain  
+
+# Author
+
+Abdoulaye Diop  
+Marketing Analytics
