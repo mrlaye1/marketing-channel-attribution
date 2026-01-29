@@ -1,5 +1,5 @@
 # Marketing Channel Attribution
-Applied Marketing Analytics Project
+Applied Marketing Analytics Project | Date: 20 April 2023
 
 ---
 
