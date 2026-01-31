@@ -98,10 +98,11 @@ marketing-channel-attribution/
 ## Reproducibility
 
 From the project root directory, run:
-
+```
 source("src/data_preparation.R")
 source("src/attribution_models.R")
 source("src/visualization.R")
+```
 
 Outputs are saved in the results and figures directories.
 
